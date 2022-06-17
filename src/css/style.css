@@ -1,0 +1,307 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  letter-spacing: 0em;
+}
+
+div,
+p,
+input,
+header,
+a,
+form {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 61px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+section {
+  padding-top: 87px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s ease;
+  /* transition задается к главному элементу до hover */
+}
+
+.btn {
+  background: #ff3465;
+  border-radius: 10px;
+  color: #fff;
+  width: 211px;
+  padding: 16px 48px;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #ed2353;
+}
+
+.btn-ghost {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  border: solid 1px #ff3465;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 249px;
+  padding: 18px 35px;
+  display: block;
+}
+.btn-ghost:hover {
+  background: #fff;
+  color: #ff3465;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url("../img/bg.jpg") no-repeat center top / cover;
+  color: #fff;
+  padding-top: 44px;
+  padding-bottom: 243px;
+}
+
+.header a {
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.055em;
+  display: block;
+  width: 150px;
+  padding-left: 34px;
+  background: url("../icons/logo.svg") no-repeat left center;
+  margin-right: 162px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin-right: 51px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  padding-bottom: 5px;
+  /* Задавать padding не в активном компоненте с hover, а здесь. Задает расстояние от пункта меню до подчеркивающей линии */
+}
+
+.menu a:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.call {
+  display: flex;
+  font-weight: bold;
+  font-size: 14px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.call-btn {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  display: block;
+  width: 156px;
+  padding: 8px 27px;
+  text-align: center;
+  margin-left: 27px;
+}
+
+.call-btn:hover {
+  background: #fff;
+  color: #3b4b81;
+}
+
+.offer {
+  margin-top: 165px;
+  text-align: center;
+}
+
+.offer h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.offer p {
+  width: 465px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 1.38em;
+}
+
+.offer .btn {
+  margin: 0 auto;
+}
+
+.destinations {
+  display: flex;
+  justify-content: space-between;
+}
+
+.destinations-item {
+  width: 277px;
+  box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+  transition: all 0.5s ease;
+}
+
+.destinations-item:hover {
+  box-shadow: 0 10px 20px 0 rgba(52, 74, 153, 0.54);
+}
+
+.destinations-item img {
+  border-radius: 15px 15px 0 0;
+}
+
+.destinations-content {
+  padding: 23px 23px 40px 34px;
+}
+
+.destinations-date {
+  font-size: 14px;
+  color: #ff3465;
+  margin: 4px 0 17px;
+}
+
+.destination-details {
+  display: flex;
+}
+
+.destinations-details span {
+  font-size: 13px;
+  background-color: #297fff;
+  border-radius: 30px;
+  padding: 3px 13px;
+  margin: 0 5.7px 0 0;
+  color: #fff;
+}
+
+.btn-routes {
+  margin: 63px auto 0 auto;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  margin-left: 43px;
+}
+
+.about-text p {
+  line-height: 1.5em;
+  margin-bottom: 25px;
+}
+
+.about-text p:last-child {
+  margin-bottom: 0px;
+}
+
+.about-title {
+  margin-bottom: 21px;
+}
+
+.img-about {
+  display: block;
+  border-radius: 0px 20px 20px 20px;
+}
+
+.form {
+  box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+  border-radius: 20px;
+  width: 601px;
+  text-align: center;
+  padding: 8px 64px 97px;
+  margin: 0 auto;
+}
+
+.form h3 {
+  width: 367px;
+  margin: 58px auto 37px;
+}
+
+.form input {
+  border-radius: 5px;
+  border: 1px solid rgba(39, 52, 86, 0.26);
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  display: block;
+  width: 100%;
+  padding: 19px 26px;
+  margin-bottom: 15px;
+}
+
+.form .btn {
+  width: 100%;
+  padding: 21px 0;
+  transition: all 0.5s ease;
+}
+
+.footer-text {
+  text-align: center;
+  color: rgba(41, 56, 111, 0.66);
+  margin: 122px 0 112px;
+  font-size: 15px;
+}
